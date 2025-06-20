@@ -6,15 +6,26 @@
     <title>Wikipedia Clone</title>
       <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1920px-Wikipedia-logo-v2.svg.png">
       <link rel="stylesheet" href="styles/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
+        <i class="fa-solid fa-bars"></i>
         <div class="header-logo">
-            <img src="https://en.wikipedia.org/static/images/icons/wikipedia.png" alt="">
-            <div class="header-logo__texts">
+            <a href="https://www.wikipedia.org/" class="wikipedia-logo">
+                <img src="https://en.wikipedia.org/static/images/icons/wikipedia.png" alt="">
+            </a>
+            <a href="https://www.wikipedia.org/" class="header-logo__texts">
                 <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt="">
                 <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en.svg" alt="">
+            </a>
+        </div>
+        <div class="search-bar-container">
+            <div class="search-bar__input">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Wikipedia">
             </div>
+            <button>Search</button>
         </div>
     </header>
     
