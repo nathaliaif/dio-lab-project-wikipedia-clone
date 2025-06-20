@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 100%;
 }
@@ -115,6 +119,25 @@ h1 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  background-color: var(--table-bg);
+  border-top: 1px solid var(--table-border);
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 @media screen and (min-width: 1000px) {
