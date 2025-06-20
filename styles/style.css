@@ -143,8 +143,12 @@ footer {
 @media screen and (min-width: 1000px) {
   aside {
     display: block;
+    position: sticky;
+    top: 5rem;
     margin-top: 5rem;
     padding: 0 0 0 3rem;
+    align-self: start;
+    height: fit-content;
 
     h3 {
       font-size: 1rem;
@@ -160,6 +164,10 @@ footer {
       a {
         text-decoration: none;
         font-size: 0.9rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
@@ -206,6 +214,7 @@ footer {
 
   .content__image {
     float: right;
+    clear: right;
     padding: 0.5rem;
     max-width: 17rem;
     background-color: var(--table-bg);
