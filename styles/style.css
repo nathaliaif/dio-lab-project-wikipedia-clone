@@ -3,7 +3,7 @@
 :root {
   --table-border: #a2a9b1;
   --table-bg: #f8f9fa;
-  --link: #4da8da;
+  --link: #36c;
 }
 
 * {
@@ -109,6 +109,15 @@ aside {
 h1 {
   font-family: "EB Garamond", serif;
   font-weight: 500;
+}
+
+.text-link {
+  text-decoration: none;
+  color: var(--link);
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .content__text p,
